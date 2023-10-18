@@ -6,14 +6,17 @@
 //
 
 import UIKit
+import os
 
-class ViewController: UIViewController {
+class RedViewController: UIViewController {
 
+    let logger = Logger()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        logger.log("Red view did load")
     }
-
 
 }
 
